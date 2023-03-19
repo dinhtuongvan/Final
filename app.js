@@ -368,7 +368,7 @@ function handleCreateForm() {
         "type": "function"
       }
     ];
-    const Address = "0xA0Fb9CbA3C58Fd4eA7050388657Bc91041518340";
+    const Address = "0x55fAA54D5C810fa44CF422Da67ee306E2441F87D";
     window.web3 = await new Web3(window.ethereum);
     window.contract = await new window.web3.eth.Contract(ABI, Address);
 
@@ -686,7 +686,7 @@ searchCertBtn.onclick = async function (){
         "type": "function"
       }
     ];
-    const Address = "0xA0Fb9CbA3C58Fd4eA7050388657Bc91041518340";
+    const Address = "0x55fAA54D5C810fa44CF422Da67ee306E2441F87D";
     window.web3 = await new Web3(window.ethereum);
     window.contract = await new window.web3.eth.Contract(ABI, Address);
 
